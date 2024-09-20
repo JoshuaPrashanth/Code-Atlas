@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+.back {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: absolute;
+    height: 340px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.147);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.Incorrect {
+    color: white;
+    display: none;
+}
+.logo {
+    height: 70px;
+    width: 70px;
+    background: url("https://images.freeimages.com/fic/images/icons/2779/simple_icons/4096/github.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 3px aqua);
+}
+.main {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(2px);
+}
+.intro {
+    color: white;
+    height: 100px;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+.passblock {
+    position: relative;
+    top: 30px;
+    height: 118px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+.userin {
+    position: relative;
+    top: 10px;
+    height: 50px;
+    width: 90%;
+    background-color: rgb(232, 232, 232, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+input {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+::placeholder {
+    color: rgba(255, 255, 255, 0.61);
+}
+button {
+    position: relative;
+    top: 10px;
+    height: 50px;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    background-color: aqua;
+    color: white;
+    &:hover {
+        background-color: red;
+    }
+    font-size: 18px;
+}
+.mainpage {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.top {
+    position: absolute;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lefty {
+    height: 100%;
+    width: 400px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.profilepic {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    background-image: url("/items/Firefly\ 20240712132419\ \(1\)\ \(1\)\ \(1\)\ \(1\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px aqua;
+}
+.name {
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    width: 200px;
+}
+.gitlogo {
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: url("https://images.freeimages.com/fic/images/icons/2779/simple_icons/4096/github.png");
+    background-size: contain;
+    filter: drop-shadow(0 0 3px aqua);
+}
+nav {
+    position: absolute;
+    top: 100px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    &:hover {
+        filter: drop-shadow(0 0 3px aqua);
+    }
+}
+section {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+    gap: 20px;
+    padding: 10px;
+}
+span {
+    margin: 0;
+    height: 75px;
+    width: 75px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.folder {
+    height: 50px;
+    filter: drop-shadow(0 0 5px aqua);
+}
+.fname {
+    font-size: 12px;
+}
