@@ -44,6 +44,9 @@ function a(l, n){
 a("https://joshuaprashanth.github.io/Heart-animation/", "Heart");
 a("https://joshuaprashanth.github.io/Speedometer/", "Meter");
 a("https://joshuaprashanth.github.io/stone/", "SPS");
+a("https://joshuaprashanth.github.io/Modes/", "mode");
+a("https://joshuaprashanth.github.io/Dumb-Charades/", "DC");
+
 
 
 
