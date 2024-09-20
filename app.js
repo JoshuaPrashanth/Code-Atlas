@@ -30,7 +30,7 @@ save.addEventListener("click",()=>{
 function a(l, n){
     const box = document.createElement("span");
     const image = document.createElement('img');
-    image.src = "/items/foldercyangithub_93076.png";
+    image.src = "https://raw.githubusercontent.com/JoshuaPrashanth/Code-Atlas/66c06a85ab5a2108cbde4d35018a0c52f2010068/foldercyangithub_93076.png";
     image.className = "folder";
     let anchor = document.createElement('a');
     anchor.href = l;
