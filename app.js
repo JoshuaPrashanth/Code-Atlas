@@ -41,9 +41,9 @@ function a(l, n){
 }
 // ADD HERE.....................................................................................................................................
 
-a("https://joshuaprashanth.github.io/Heart-animation/", "Heart Animation");
-a("https://joshuaprashanth.github.io/Speedometer/", "Speedometer");
-a("https://joshuaprashanth.github.io/stone/", "StonePaperScossor");
+a("https://joshuaprashanth.github.io/Heart-animation/", "Heart");
+a("https://joshuaprashanth.github.io/Speedometer/", "Meter");
+a("https://joshuaprashanth.github.io/stone/", "SPS");
 
 
 
