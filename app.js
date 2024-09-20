@@ -3,9 +3,6 @@ let save = document.querySelector("button");
 let container = document.querySelector(".container");
 let mainpage = document.querySelector(".mainpage");
 let incorrect = document.querySelector(".Incorrect");
-// let folder = document.querySelector("span");
-// let anchor = document.querySelector(".link");
-// let filename = document.querySelector(".filename");
 let section = document.querySelector("section");
 
 function pass(){
@@ -42,7 +39,7 @@ function a(l, n){
     box.appendChild(anchor);
     section.appendChild(box);
 }
-
+// ADD HERE.....................................................................................................................................
 
 a("https://joshuaprashanth.github.io/Heart-animation/", "Heart Animation");
 
